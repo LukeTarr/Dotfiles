@@ -6,6 +6,13 @@ if status is-interactive
     alias fe="code ~/.config/fish"
     alias fu="source ~/.config/fish/config.fish"
 
+    #oxidize
+    alias cd="z"
+    alias ls="eza"
+    alias cat="bat"
+    alias grep="rg"
+
+
     function fish_greeting
     end
 end
